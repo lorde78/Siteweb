@@ -34,6 +34,9 @@ body
 
 h1
 {
+	position: absolute;
+	left:612px;
+	top:-4px;
 	font-family:'amatic';
 	font-size: 50px;
 }
@@ -165,7 +168,7 @@ aside
     color: white;
     font-size: 20px;
     height:100%;
-    margin-top:50px;
+    margin-top:114px;
     color:black;
 }
 
@@ -199,4 +202,58 @@ aside p
 aside img
 {
 	margin-right: 4px;
+}
+
+footer
+{
+	display:flex;
+	background: url('contenu/logo/separateur.png') repeat-x top;
+	padding-top:25px;
+	color:rgba(237, 237, 237);
+}
+
+footer h2
+{
+	color:rgba(237, 237, 237);
+	font-size:40px;
+}
+
+#tweet
+{
+	width:33%;
+}
+
+#photos
+{
+	width:40%;
+}
+
+#photos img
+{
+border: 1px solid #181818;
+margin-right:4px;
+}
+
+#contact
+{
+	width:32%;
+}
+
+#contact a
+
+{
+	color: white;
+    text-decoration: none;
+}
+
+#contact ul
+{
+	position: relative;
+    left: -20px;
+}
+
+#contact a:hover
+{
+    color: #1c100b;
+    border-bottom: 3px solid #1c100b;
 }
