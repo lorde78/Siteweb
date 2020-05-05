@@ -63,6 +63,8 @@ header
     flex-direction: column;
 }
 
+/*Navigation*/
+
 nav ul
 {
     list-style-type: none;
@@ -88,6 +90,8 @@ nav a:hover
     color: #1c100b;
     border-bottom: 3px solid #1c100b;
 }
+
+/*Banniere*/
 
 #banniere_image
 {
@@ -151,17 +155,18 @@ article
 
 aside
 {
-	font-family:'Rubik-Regular';
+	font-family:'amatic';
 	flex: 1.2;
     position:relative;
-    background-color: #706b64;
+    background-color: rgba(237, 237, 237);
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
     padding: 10px;
     color: white;
-    font-size: 0.9em;
+    font-size: 20px;
     height:100%;
     margin-top:50px;
+    color:black;
 }
 
 aside h2
@@ -187,6 +192,11 @@ aside p
 #fleche_bulle
 {
     position: absolute;
-    top: 100px;
+    top: 158px;
     left: -12px;
+}
+
+aside img
+{
+	margin-right: 4px;
 }
